@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #101820;    
+}
+
+header {
+    background-color: gray;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+main {
+    width: 1200px;
+    margin: 0 auto;
+    color: gold;
+}
+
+footer {
+    color: gold;
+}
+
+hr{
+    color: hotpink;
+}
+
+h1{
+    color:gold;
+}
