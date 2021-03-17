@@ -1,12 +1,12 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: #101820;    
+    background: black;
 }
 
 header {
     background-color: gray;
-    padding: 20px;
-    color: white;
+    padding: 22px;
+    color: gold;
     text-align: center;
 }
 
@@ -18,12 +18,104 @@ main {
 
 footer {
     color: gold;
+    padding-top: 25px;
 }
 
-hr{
-    color: hotpink;
+.odpoved {
+    border-left: 8px solid gray;
+    padding-left: 20px;
 }
 
-h1{
-    color:gold;
+table, td, th {
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 5px 50px;
+}
+
+th {
+    background-color: black;
+}
+
+caption {
+    font-size: 1.2em;
+}
+
+ol#search li {
+    padding: 5px 20px;
+}
+
+ol#search ul {
+    list-style: square;
+}
+
+section {
+    padding-top: 15px;
+}
+
+.dropbtn {
+    background-color: red;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.otazka {
+    color: gold;
+    background-color: gray;
+    padding: 1em;
+    font-size: 1.2em;
+    margin: 1em 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 390px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 575px;
+    height: 400px;
+    filter: drop-shadow(2px 4px 8px gray);
+}
+
+a{
+    color:hotpink;
 }
